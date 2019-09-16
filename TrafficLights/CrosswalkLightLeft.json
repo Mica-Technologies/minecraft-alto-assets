@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "TrafficLights/CrosswalkOff",
-		"particle": "TrafficLights/CrosswalkOff"
+		"0": "mclamod:TrafficLights/CrosswalkOn",
+		"particle": "mclamod:TrafficLights/CrosswalkOn"
 	},
 	"elements": [
 		{
@@ -65,5 +65,21 @@
 				"down": {"uv": [15.135, 4.777, 14.635, 5.027], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 180, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 1.25, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1.25, 0]
+		}
+	}
 }

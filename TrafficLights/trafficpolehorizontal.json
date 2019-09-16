@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "TrafficLights/CrosswalkOff",
-		"particle": "TrafficLights/CrosswalkOff"
+		"0": "mclamod:TrafficLights/metal_silver",
+		"particle": "mclamod:TrafficLights/metal_silver"
 	},
 	"elements": [
 		{
@@ -116,6 +116,7 @@
 			}
 		}
 	],
+	"display": {},
 	"groups": [
 		{
 			"name": "hexadecagon",
